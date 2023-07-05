@@ -14,7 +14,7 @@ local isMac = os.capture('uname') == 'Darwin\n'
 config = {
     font = wezterm.font("MonoLisa", { weight = "Medium" }),
     harfbuzz_features = { 'calt=0', 'clig=0', 'liga=0' },
-    font_size = 16.0,
+    font_size = 12.0,
     enable_tab_bar = false,
     scrollback_lines = 10000,
     enable_scroll_bar = false,
@@ -40,6 +40,7 @@ config = {
 }
 
 if isMac then
+    config.font_size = 16
     config.background[1].source.File = "/Users/work/.config/wezterm/bg/harley_anime.png"
 end
 
