@@ -3,7 +3,7 @@ local wezterm = require 'wezterm';
 return {
     font = wezterm.font("MonoLisa", { weight = "Medium" }),
     harfbuzz_features = { 'calt=0', 'clig=0', 'liga=0' },
-    font_size = 16.0,
+    font_size = 12.0,
     enable_tab_bar = false,
     scrollback_lines = 10000,
     enable_scroll_bar = false,
@@ -12,7 +12,7 @@ return {
     background = {
         {
             source = {
-                File = "/Users/apoorv-work/termwalls/yone.jpeg",
+                File = "/home/apoorv/.config/wezterm/bg/harley_anime.png",
             },
             width = "100%",
             height = "100%",
