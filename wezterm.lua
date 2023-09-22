@@ -23,7 +23,7 @@ config = {
     background = {
         {
             source = {
-                File = "/home/apoorv/.config/wezterm/bg/harley_anime.png",
+                File = "/home/apoorv/.config/wezterm/bg/feral_gojo.jpg",
             },
             width = "100%",
             height = "100%",
