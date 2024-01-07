@@ -23,7 +23,7 @@ config = {
     background = {
         {
             source = {
-                File = "/home/apoorv/.config/wezterm/bg/feral_gojo.jpg",
+                File = "/home/apoorv/.config/wezterm/bg/luffy-gear-5-egghead-op.jpg",
             },
             width = "100%",
             height = "100%",
