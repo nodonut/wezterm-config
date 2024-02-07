@@ -40,8 +40,8 @@ config = {
 }
 
 if isMac then
-    config.font_size = 16
-    config.background[1].source.File = "/Users/work/.config/wezterm/bg/harley_anime.png"
+    config.font_size = 18
+    config.background[1].source.File = "/Users/work/.config/wezterm/bg/luffy-gear-5-egghead-op.jpg"
 end
 
 return config
